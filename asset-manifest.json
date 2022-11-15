@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/aleannlab/static/css/main.1fde32f0.css",
+    "main.js": "/aleannlab/static/js/main.c70d924f.js",
+    "static/media/right-arrow.svg": "/aleannlab/static/media/right-arrow.c69dedf11549dba56943e3e043d213b0.svg",
+    "static/media/left-arrow.svg": "/aleannlab/static/media/left-arrow.f2ae26a788dfde421a7015b956fe9cfb.svg",
+    "static/media/star.svg": "/aleannlab/static/media/star.fd744a3afc1eb8207c05bb1e8e92b541.svg",
+    "static/media/share.svg": "/aleannlab/static/media/share.7381a5999554764f3ce8249d49192539.svg",
+    "index.html": "/aleannlab/index.html",
+    "static/media/left-arrow-button.svg": "/aleannlab/static/media/left-arrow-button.e3f3af7964e1cabfb20bfd4d9d96ee9d.svg",
+    "static/media/bookmark.svg": "/aleannlab/static/media/bookmark.6e05df0e6608ca6a81f2ef55fd6aafcc.svg",
+    "static/media/location.svg": "/aleannlab/static/media/location.1c093ca173a538132f1ce31ab6296061.svg",
+    "static/media/circle.svg": "/aleannlab/static/media/circle.9c9206dd3c1c0d802c1f617ff249c37c.svg",
+    "main.1fde32f0.css.map": "/aleannlab/static/css/main.1fde32f0.css.map",
+    "main.c70d924f.js.map": "/aleannlab/static/js/main.c70d924f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fde32f0.css",
+    "static/js/main.c70d924f.js"
+  ]
+}
