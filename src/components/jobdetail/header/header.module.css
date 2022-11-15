@@ -1,0 +1,25 @@
+.job_details {
+  @apply flex justify-between items-center mb-[12px]
+    sm:mb-[9px];
+}
+.save_text {
+  @apply ml-2;
+}
+.share_block {
+  @apply flex ml-8 cursor-pointer;
+}
+.share_text {
+  @apply ml-4;
+}
+.svg_desktop {
+  @apply hidden
+    sm:flex;
+}
+.svg_mobile {
+  @apply flex mt-[25px] mb-8
+    sm:hidden sm:mt-0 sm:mb-0;
+}
+.separator_responsive {
+  @apply hidden
+    sm:block;
+}

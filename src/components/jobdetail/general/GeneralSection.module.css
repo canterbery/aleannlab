@@ -1,0 +1,26 @@
+.title {
+  @apply mb-2;
+}
+.price_block {
+  @apply ml-[60px] flex flex-col items-end
+    sm:block;
+}
+.price {
+  @apply whitespace-nowrap mt-1
+    sm:mb-px sm:mt-0;
+}
+.date {
+  @apply mb-2 !text-[#878D9D];
+}
+.description {
+  @apply whitespace-pre-line;
+}
+.description h3 {
+  @apply mt-8 mb-4;
+}
+.description ul {
+  @apply list-square list-inside;
+}
+.description li::marker {
+  @apply text-[rgba(0,0,0,0.632594)];
+}

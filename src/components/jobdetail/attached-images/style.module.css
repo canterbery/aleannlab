@@ -1,0 +1,10 @@
+.attached_text {
+  @apply mb-2;
+}
+.images {
+  @apply block gap-[10px] mt-[21px] flex-nowrap overflow-hidden overflow-x-scroll
+  md:flex;
+}
+.image {
+  @apply w-[200px] h-[116px] shrink-0 object-cover rounded-lg;
+}

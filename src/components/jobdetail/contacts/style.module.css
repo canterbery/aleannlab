@@ -1,0 +1,48 @@
+.contacts {
+  @apply max-w-[723px] w-full mt-16 flex flex-col justify-center
+    lg:mt-0 lg:ml-[133px] lg:min-w-[372px] lg:w-[402px] lg:self-start;
+}
+.contacts_text {
+  @apply mb-[10px];
+}
+.contacts_map {
+  @apply self-center  rounded-lg mt-[21px] max-w-[402px]
+    w-full h-[436px] bg-slate-400 relative
+    lg:mt-0 lg:mx-0 lg:mr-0;
+}
+.contacts_description {
+  @apply min-h-[218px] rounded-t-lg bg-[#2A3047] relative 
+    overflow-hidden flex items-center justify-center
+    lg:h-[218px];
+}
+.contacts_wrapper {
+  @apply max-w-[402px] px-[62px]  rounded-t-lg  pt-[31px] pb-[20px] relative
+    lg:absolute lg:z-10;
+}
+.location_block {
+  @apply flex mt-2;
+}
+.location {
+  @apply mr-2;
+}
+.phone_email {
+  @apply mt-2;
+}
+.map {
+  @apply w-full h-[218px] rounded-b-lg grayscale-[100%] invert-[100%] contrast-[80%]
+    lg:max-w-[402px];
+}
+.name {
+  @apply !text-[#E7EAF0];
+}
+.description {
+  @apply !text-[#E8EBF3] !font-normal;
+}
+.circle {
+  @apply absolute z-0 left-0 hidden
+    lg:block;
+}
+.contacts_hide {
+  @apply block
+    lg:hidden;
+}

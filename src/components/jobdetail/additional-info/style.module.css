@@ -1,0 +1,28 @@
+.additional_text {
+  @apply mb-2;
+}
+
+.title_text {
+  @apply mt-[15px] mb-[10px];
+}
+.employmnet_blocks {
+  @apply flex flex-wrap text-center gap-2;
+}
+.employmnet_block__wrapper {
+  @apply w-[calc((100%/3)-19px)] py-4 px-2 rounded-lg border-solid border
+    border-[rgba(85,105,158,0.3)] bg-[rgba(161,177,219,0.317343)];
+}
+.employmnet_block__text {
+  @apply tracking-[-0.457143px] text-[#55699E];
+}
+
+.benefits_blocks {
+  @apply flex flex-wrap text-center gap-[10px];
+}
+.benefits_block__wrapper {
+  @apply w-[calc((100%/3)-25px)] py-4 px-2 rounded-lg border-solid border
+    border-[#FFCF00] bg-[rgba(255,207,0,0.15)];
+}
+.benefits_block__text {
+  @apply tracking-[-0.4px] text-[#988B49];
+}

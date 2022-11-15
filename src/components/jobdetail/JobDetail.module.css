@@ -1,0 +1,81 @@
+.container {
+  @apply pb-[37px] px-4 pt-6 w-full bg-white
+        lg:px-[20px] lg:pb-[162px] lg:pt-14;
+}
+.container h1 {
+  @apply text-[1.75rem] leading-[34px] text-[#3A4562] tracking-[0.413333px] font-bold;
+}
+.container h2 {
+  @apply text-[1.5rem] leading-[30px] text-[#3A4562] tracking-[-0.75px] font-bold;
+}
+.container h3 {
+  @apply text-[1.25rem] leading-[25px] text-[#3A4562] tracking-[-0.625px] font-bold;
+}
+.container h4 {
+  @apply text-[1rem] leading-[16px]  font-bold;
+}
+.container h6 {
+  @apply font-semibold text-xs uppercase;
+}
+.container div,
+ul,
+li,
+h5 {
+  @apply font-normal text-[1.125rem] leading-[24px] text-[#3A4562] tracking-[-0.5625px] font-roboto;
+}
+
+.images_block {
+  @apply mt-[135px] mb-16
+        sm:mt-[87px] sm:mb-0;
+}
+::-webkit-scrollbar {
+  @apply w-[10px] h-[10px];
+}
+::-webkit-scrollbar-track {
+  @apply bg-white;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-[rgb(168,168,168)];
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[rgb(138,138,138)];
+}
+
+.separator {
+  @apply h-px bg-[#3A4562] opacity-[0.13] w-auto;
+}
+.apply_button__wrapper {
+  @apply flex justify-center
+  sm:block;
+}
+.apply_button {
+  @apply py-[18px] px-[30px] rounded-lg text-white bg-[#384564] mt-4 mb-0
+  sm:mt-10 sm:mb-8;
+}
+.apply_button__hide {
+  @apply hidden
+  sm:block;
+}
+.items_between {
+  @apply flex flex-col items-center justify-center
+ lg:flex-row;
+}
+.left_side {
+  @apply max-w-[723px];
+}
+.return_button {
+  @apply hidden py-4 pl-[23px]  pr-[26px] rounded-lg bg-[#384564]
+  bg-opacity-[0.14]  mt-[97px]
+  sm:flex sm:items-center text-center;
+}
+.return_button > a {
+  @apply flex items-center;
+}
+
+.return_button__text {
+  @apply ml-[19px];
+}
+.additional_attached__blocks {
+  @apply flex flex-col-reverse
+  sm:block;
+}
